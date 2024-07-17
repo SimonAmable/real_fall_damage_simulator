@@ -64,4 +64,4 @@ def execute():
 
 # MAIN CODE UNDER HERE: PLAY THE GAME FIRST, AND THEN RUN THE SERVER!!!!!!!!
 if __name__ == '__main__':
-    app.run(host='192.168.2.59', port=5000)
+    app.run(host='0.0.0.0', port=5000)
