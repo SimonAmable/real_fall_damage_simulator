@@ -16,8 +16,16 @@ This is just some code that can help you get tazed everytime you fall in chained
 # Materials
 - Raspberry Pi 5 (or any alternative microcontroller with some wireless communication technology and GPIO pins)
 - A single 9g MS18 180* Servo (or any alternative this is just the cheapest servo)
+- Some junk wood or other easy to use construction material 
 - 3 M-F Jumper Cable
 - A Computer with "Chained Together" installed
+
+# Tech Used
+- Python
+- Python Flask # To make a http server with a microcontroller attechted to the serve thought a custom interface.
+- Requests # to send request to the server when we fall
+- EasyOCR #Python Optical Character recognition library. Transforming images of number to real number To keep track of game state.
+- cv2 # Open Computer Vision. Prefroming image preproccessing to help out EasyOCR.
 
 # Setup
 - If your intrested in recreating this device PLEASE use caution with the EMS device as they are note entirely safe
