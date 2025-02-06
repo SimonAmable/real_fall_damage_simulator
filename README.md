@@ -18,20 +18,21 @@ This is just some code that can help you get tazed everytime you fall in chained
 - A single 9g MS18 180* Servo (or any alternative this is just the cheapest servo)
 - Some junk wood or other easy to use construction material 
 - 3 M-F Jumper Cable
+- A ELectric Muscle Stimulus (EMS) Device 
 - A Computer with "Chained Together" installed
 
 # Tech Used
 - Python
-- Python Flask # To make a http server with a microcontroller attechted to the serve thought a custom interface.
-- Requests # to send request to the server when we fall
-- EasyOCR #Python Optical Character recognition library. Transforming images of number to real number To keep track of game state.
-- cv2 # Open Computer Vision. Prefroming image preproccessing to help out EasyOCR.
+- Python Flask # To make a http server from microcontroller.
+- Requests # to send request to the server when we fall.
+- EasyOCR #Python Optical Character recognition library. Transforming images of number to real integers(numbers) To keep track of the game state aka current height.
+- cv2 # Open Computer Vision. Preforming image preproccessing to help out EasyOCR.
 
 # Setup
 - If your intrested in recreating this device PLEASE use caution with the EMS device as they are note entirely safe
 - Too setup this project please make a venv ONLY ON THE CLIENT PLAYING THE GAME, if you create a venv on the rasPI everything will stop working keep this in mind
 - Once the venv is created download the dependancies from the requirements.txt file
-- 
+  
 
 
 # Usage:
